@@ -1,0 +1,55 @@
+/** Add css rules here for your application. */
+
+
+/* Formatiting for Stockwatcher */
+body {
+	padding: 10px;
+}
+
+/* stock list header row */
+.watchListHeader {
+	background-color: #777777;
+	color: white;
+	font-style: italic;	
+}
+
+/* stock list flex table */
+.watchList {
+	border: 1px solid black;
+	padding: 2px;
+	margin-bottom: 6px;
+}
+
+/* stock list price and change fields */
+.watchListNumericColumn {
+	text-align: right;
+	width: 8em;
+}
+
+/* stcok lsit Remove column */
+.watchListRemoveColumn {
+	text-align: center;
+}
+
+/* stock list, teh Remove button */
+.gwt-Button-remove {
+	width: 50px;
+	color: #777777;
+}
+	
+/* dynamic color chagnes for the Change field */
+.noChange {
+	color: white;
+}
+.positiveChange {
+	color: green;
+}
+.negativeChange {
+	color: red;
+}
+	
+/* root panel */
+.rootPanelStyle {
+	background-color: #999999;
+	color: white;	
+}
